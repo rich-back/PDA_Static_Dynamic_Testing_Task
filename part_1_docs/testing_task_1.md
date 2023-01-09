@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total #NEEDS TO BE ASSIGNED INITIAL VALUE OF 0
   for card in cards:
     total += card.value
-    return "You have a total of" + total # CANNOT CONCATENATE STRING. USE FORMATTED STRING INSTEAD. THE RETURN ALSO NEEDS TO BE OUTSIDE THE FOR LOOP, ie INDENTED LEFT ONE.
+    return "You have a total of" + total # CANNOT CONCATENATE STRING WITH AN INTEGER. USE FORMATTED STRING INSTEAD. THE RETURN ALSO NEEDS TO BE OUTSIDE THE FOR LOOP, ie INDENTED LEFT ONE.
   
 ```
